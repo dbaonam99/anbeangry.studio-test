@@ -1,0 +1,121 @@
+{
+  "categories": [
+    {
+      "id": 1,
+      "name": "news",
+      "sub": []
+    },
+    {
+      "id": 2,
+      "name": "about m.a.u",
+      "sub": []
+    },
+    {
+      "id": 3,
+      "name": "artists",
+      "sub": [
+        {
+          "id": 1,
+          "name": "dycal"
+        },
+        {
+          "id": 2,
+          "name": "hiyadam"
+        },
+        {
+          "id": 3,
+          "name": "jp the wavy"
+        },
+        {
+          "id": 4,
+          "name": "joe flizzow"
+        },
+        {
+          "id": 5,
+          "name": "king promdi"
+        },
+        {
+          "id": 6,
+          "name": "naomi"
+        },
+        {
+          "id": 7,
+          "name": "shigga say"
+        },
+        {
+          "id": 8,
+          "name": "suboi"
+        },
+        {
+          "id": 9,
+          "name": "twopee"
+        },
+        {
+          "id": 10,
+          "name": "yung hugo"
+        }
+      ]
+
+    },
+    {
+      "id": 4,
+      "name": "collaborations",
+      "sub": []
+    },
+    {
+      "id": 5,
+      "name": "events",
+      "sub": []
+    }
+  ],
+  "events": [
+    {
+      "id": 1,
+      "title": "Vietnamese hiphop queen shines in Vogue Japan",
+      "time": "18.01.2021",
+      "image": "https://vietnamtimes.org.vn/stores/news_dataimages/vietnamfriendshipcomvn/052019/15/09/vietnamese-hip-hop-queen-shines-in-vogue-japan-asian-documentary-20-.1399.png"
+    },
+    {
+      "id": 2,
+      "title": "Vietnamese hiphop queen shines in Vogue Japan",
+      "time": "18.01.2021",
+      "image": "https://vietnamtimes.org.vn/stores/news_dataimages/vietnamfriendshipcomvn/052019/15/09/vietnamese-hip-hop-queen-shines-in-vogue-japan-asian-documentary-20-.1399.png"
+    },
+    {
+      "id": 3,
+      "title": "Vietnamese hiphop queen shines in Vogue Japan",
+      "time": "18.01.2021",
+      "image": "https://vietnamtimes.org.vn/stores/news_dataimages/vietnamfriendshipcomvn/052019/15/09/vietnamese-hip-hop-queen-shines-in-vogue-japan-asian-documentary-20-.1399.png"
+    },
+    {
+      "id": 4,
+      "title": "Vietnamese hiphop queen shines in Vogue Japan",
+      "time": "18.01.2021",
+      "image": "https://vietnamtimes.org.vn/stores/news_dataimages/vietnamfriendshipcomvn/052019/15/09/vietnamese-hip-hop-queen-shines-in-vogue-japan-asian-documentary-20-.1399.png"
+    },
+    {
+      "id": 5,
+      "title": "Vietnamese hiphop queen shines in Vogue Japan",
+      "time": "18.01.2021",
+      "image": "https://vietnamtimes.org.vn/stores/news_dataimages/vietnamfriendshipcomvn/052019/15/09/vietnamese-hip-hop-queen-shines-in-vogue-japan-asian-documentary-20-.1399.png"
+    },
+    {
+      "id": 6,
+      "title": "Vietnamese hiphop queen shines in Vogue Japan",
+      "time": "18.01.2021",
+      "image": "https://vietnamtimes.org.vn/stores/news_dataimages/vietnamfriendshipcomvn/052019/15/09/vietnamese-hip-hop-queen-shines-in-vogue-japan-asian-documentary-20-.1399.png"
+    },
+    {
+      "id": 7,
+      "title": "Vietnamese hiphop queen shines in Vogue Japan",
+      "time": "18.01.2021",
+      "image": "https://vietnamtimes.org.vn/stores/news_dataimages/vietnamfriendshipcomvn/052019/15/09/vietnamese-hip-hop-queen-shines-in-vogue-japan-asian-documentary-20-.1399.png"
+    },
+    {
+      "id": 8,
+      "title": "Vietnamese hiphop queen shines in Vogue Japan",
+      "time": "18.01.2021",
+      "image": "https://vietnamtimes.org.vn/stores/news_dataimages/vietnamfriendshipcomvn/052019/15/09/vietnamese-hip-hop-queen-shines-in-vogue-japan-asian-documentary-20-.1399.png"
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+.sidebarItem {
+  margin: 10px;
+  p {
+    cursor: pointer;
+    font-size: 16px;
+    margin-left: 10px; 
+    position: relative;
+    width: max-content;
+    &::after {
+      content: '';
+      position: absolute;
+      width: 0px;
+      height: 2px;
+      bottom: 0;
+      left: 0;
+      background-color: #777;
+      transition: .2s;
+    }
+    &:hover::after {  
+      width: 100%;
+    }
+  } 
+  .sidebarSubItems {  
+    padding: 5px; 
+    margin-left: 30px; 
+    .sidebarSubItem {
+      margin: 10px;
+      p {
+        font-size: 13px; 
+      } 
+    }
+  }
+}

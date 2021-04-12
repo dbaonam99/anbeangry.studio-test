@@ -1,0 +1,124 @@
+$mobile-width: 480px; 
+$tablet-width: 768px; 
+$desktop-width: 1024px;  
+
+
+@mixin mobile { @media (max-width: #{$mobile-width - 1px}) {     
+  @content;   
+  } 
+}  
+
+@mixin middle { @media (min-width: #{$mobile-width}) and (max-width: #{$tablet-width - 1px}) {         
+  @content;   
+  } 
+}  
+
+@mixin tablet { @media (min-width: #{$tablet-width}) and (max-width: #{$desktop-width - 1px}) {       
+  @content;   
+  } 
+}  
+
+@mixin desktop { @media (min-width: #{$desktop-width}) {     
+  @content;  
+  } 
+}
+
+.eventItem {
+  margin-right: 20px;
+  width: calc(100% - 20px);
+  height: 20vw;
+  &:nth-child(4n) {
+    margin: 0;
+  }
+  .eventItemImg {
+    overflow: hidden;
+    width: 100%; 
+    height: 60%;  
+    img {
+      width: 100%;
+      height: 100%;
+      transition: .2s;
+      &:hover {
+        transform: scale(1.3) rotate(10deg); 
+      }
+    }
+  }
+  .eventItemTitle {
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: bold;
+    margin: 15px 0;
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+  .eventItemTime { 
+    font-size: 12px;
+  }
+}
+@include mobile {     
+  .eventItem { 
+    width: calc(100% - 20px);
+    height: 65vw;   
+    &:nth-child(n) {
+      margin-right: 20px;
+      margin-left: 20px;
+    } 
+    .eventItemTitle { 
+      margin: 5px 0;
+    } 
+  }
+}  
+@include middle {     
+  .eventItem { 
+    width: calc(50% - 30px);
+    height: 40vw;   
+    margin-right: 20px;  
+    &:nth-child(2n) { 
+      margin: 0;
+    } 
+    &:nth-child(2n + 1) { 
+      margin-left: 20px;
+    } 
+    .eventItemTitle { 
+      margin: 5px 0;
+    } 
+  }
+}    
+@include tablet {     
+  .eventItem { 
+    width: calc(33.333333% - 20px);
+    height: 22vw;   
+    &:nth-child(n) {
+      margin-right: 20px;
+    } 
+    .eventItemTitle {
+      font-size: 12px; 
+      margin: 10px 0;
+    }
+    .eventItemTime {
+      font-size: 10px;
+    }
+  } 
+} 
+@include desktop {    
+  .eventItem {
+    margin-right: 20px;
+    width: calc(25% - 20px);
+    height: 20vw;
+    &:nth-child(4n) {
+      margin: 0;
+    }
+    .eventItemImg {
+      width: 100%;
+    }
+    .eventItemTitle {
+      font-size: 14px;
+      font-weight: bold;
+      margin: 15px 0;
+    }
+    .eventItemTime {
+      font-size: 12px;
+    }
+  }
+} 

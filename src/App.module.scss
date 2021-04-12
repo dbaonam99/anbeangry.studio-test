@@ -1,0 +1,58 @@
+$tablet-width: 768px; 
+$desktop-width: 1024px;  
+
+@mixin mobile { @media (max-width: #{$tablet-width - 1px}) {     
+  @content;   
+  } 
+}  
+
+@mixin tablet { @media (min-width: #{$tablet-width}) and (max-width: #{$desktop-width - 1px}) {       
+  @content;   
+  } 
+}  
+
+@mixin desktop { @media (min-width: #{$desktop-width}) {     
+  @content;  
+  } 
+}
+
+html, body, div, span, applet, object, iframe,h1, h2, h3, h4, h5, h6, p{
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+}
+ol, ul {
+  list-style: none;
+}
+.main { 
+  .header {
+    width: 100%; 
+  }
+  .body {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    font-family: 'Open Sans', sans-serif;
+    .left {
+      width: 250px;
+    }
+    .right { 
+      position: relative;
+      width: calc(100% - 250px); 
+    }    
+  }
+  @include mobile { 
+    .body { 
+      display: flex;
+      flex-direction: column-reverse;
+      flex-wrap: wrap;  
+      .left {
+        width: 100%;
+      }
+      .right {  
+        width: 100%; 
+      }  
+    }
+  } 
+}
